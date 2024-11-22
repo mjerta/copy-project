@@ -16,7 +16,7 @@ function SearchSection({className}) {
   return (
     <header className={`search-header ${className ? className : ''}`}>
       <SearchInput
-        placeHolder={"What would you like to eat?"}
+        placeHolder={"What would you like to cheat?"}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
     </header>
