@@ -6,6 +6,8 @@ on:
       - main
       - develop
 
+  workflow_dispatch:
+
 env:
   BRANCH_NAME: ${{ github.ref_name }}
 
